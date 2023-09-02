@@ -1,6 +1,7 @@
 use std::fs::File;
 use std::io::ErrorKind;
 use std::io::{self,Read};
+
 //let mut username = String::new();
 //File::open("hello.txt")?.read_to_string(&mut username)?;
 //Ok(username);
