@@ -3,6 +3,8 @@ use std::collections::HashMap;
 fn main() {
     let mut hm = HashMap::new();
 
+    let i = 345;
+
     hm.insert(String::from("Blue"), 10);
 
     hm.insert(String::from("Yellow"), 50);
