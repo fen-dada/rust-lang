@@ -1,5 +1,5 @@
 fn main(){
-    let favorite_color: Option<&str> = None;
+    let favorite_color: Option<&str> = Some("hehe");
 
     let is_tuesday = false;
 
@@ -18,4 +18,12 @@ fn main(){
     } else {
         println!("Using blue as the background color");
     }
+
+    let v = vec![1,2,3];
+
+    for (index, value) in v.iter().enumerate() {
+        println!("{} is at index {}",value,index);
+    }
+
+    println!("{:?}",favorite_color);
 }
